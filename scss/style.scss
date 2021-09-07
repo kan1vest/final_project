@@ -1,0 +1,249 @@
+
+@import "_header";
+@import "_colors";
+
+
+
+// подключаем шрифты
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+
+.body {
+  font-family:'Roboto', 'Courier New', Courier, monospace sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+
+
+.line {
+         background: $color-active;
+         height: 6px;
+         width: 90px;
+}
+
+.header {
+      color:#FFFFFF;
+		&__contacts {
+         padding-top: 16px;
+         background: $color-active;
+         height: 45px;
+         font-family: Roboto;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 12px;
+         line-height: 14px;
+		}
+
+		&__menu {
+         list-style: none;
+         display: flex;
+         padding: 0;
+         
+		}
+
+		&__item {
+         padding-right: 10px;
+         
+         
+		}
+
+		&__link {
+         text-decoration: none;
+         color:$color-text;
+         transition-duration: 0.1ms;
+         
+		}
+      &__link:hover {
+            color:#ffffffad;
+            cursor: pointer;
+         }
+
+		&__number {
+         text-align: center;
+		}
+
+		&__mail {
+         text-align: right;
+		}
+
+		&__logo {
+         background: $color-bg;
+         height: 100px;  
+		}
+
+		&__sublogo {
+         max-height: 100px;
+         img {
+            width: 160px;
+            margin-right: 33px;
+           
+         }
+		}
+
+		&__line {
+         display: inline-block;
+         transform: translateY(50%);
+         border: 1px solid $color-text;
+         height: 46px;
+		}
+
+		&__place {
+         display: inline-block;
+         margin-left: 42px;
+         color: $color-active;
+		}
+
+		&__submenu {
+         
+         list-style: none;
+         display: flex;
+         justify-content: flex-end;
+         align-items: center;
+         padding-top: 35px;
+         
+      }
+      &__subitem{
+         font-size: 14px;
+         line-height: 16px;
+         text-transform: uppercase;
+      }
+      &__subitem:not(:last-child){
+         padding-right: 30px;
+      }
+}
+.active {
+   color:$color-text;
+   opacity: 1;
+}
+.no-active {
+   opacity: 0.5;
+}
+
+
+.main {
+      background: url(/img/main/bg.jpg) center no-repeat ;
+      background-size: cover;
+      height: 620px;
+      padding-top: 155px;
+		&__header {
+         text-align: center;
+         margin: 0 auto;
+         height: 245px;
+         max-width: 920px;
+         border: 1px solid $color-active;
+         padding-top: 45px;
+         h1 {
+            margin: 0;
+            color: $color-text;
+            font-size: 64px;
+            line-height: 75px;
+         }
+         p{
+            color: $color-text;
+            font-size: 18px;
+            line-height: 28px;
+            padding-top: 45px;
+         }
+		}
+      img {
+         padding-top: 140px;
+         display: block;
+         margin: 0 auto;
+      }
+}
+
+
+
+
+
+.features {
+      c
+      height: 561px;
+      &__background{
+         position: absolute;
+         background: #1d1c1c;
+         left: 50%;
+         transform: translateX(-50%);
+         width: 350px;
+         height: 561px;
+      }
+		&__slider {
+         padding-top: 120px;
+		}
+
+		&__block {
+         
+		}
+
+		&__line { 
+		}
+
+		&__header {
+         color: $color-text;
+         padding-top: 40px;
+         margin-bottom: 50px;
+         h2 {
+            font-size: 40px;
+            line-height: 49px;
+            text-transform: uppercase;
+         }
+         span {
+            display: block;
+            padding-top: 30px;
+            font-size: 18px;
+            line-height: 28px;
+         }
+		}
+
+		&__button {
+         cursor: pointer;
+         color: $color-text;
+         max-width: 220px;
+         text-align: center;
+         font-size: 16px;
+         line-height: 25px;
+         text-transform: uppercase;
+         padding: 18px 48px 18px 48px;
+         background:  $color-active;
+		}
+
+		&__img {
+         width: 120px;
+         height: 100px;
+         text-align: center;
+		}
+}
+
+
+
+.services {
+   background: $color-bg;
+   height: 100px;
+		&__line {
+		}
+
+		&__header {
+		}
+
+		&__row {
+         padding: 0;
+         margin: 0;
+		}
+
+		&__button {
+         width: 350px;
+         height: 200px;
+		}
+
+		&__img {
+		}
+}
+
+.otso {
+   padding: 0;
+   margin: 0;
+}
