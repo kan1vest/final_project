@@ -351,12 +351,12 @@ header {
 }
 
 .button__background {
-  background: url(../img/aboutus/bg.jpg) center no-repeat;
+  background: url(../img/aboutus/bg.JPG) center no-repeat;
   background-size: cover;
 }
 
 .place {
-  background: url(../img/place/maps.jpg) center no-repeat;
+  background: url(../img/place/maps.JPG) center no-repeat;
   background-size: cover;
   height: 450px;
 }
