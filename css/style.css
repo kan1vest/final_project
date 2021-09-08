@@ -356,7 +356,7 @@ header {
 }
 
 .place {
-  background: url(../img/place/maps.JPG) center no-repeat;
+  background: url(img/place/maps.JPG) center no-repeat;
   background-size: cover;
   height: 450px;
 }
