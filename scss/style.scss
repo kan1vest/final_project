@@ -53,7 +53,7 @@
 
 		&__link {
          text-decoration: none;
-         color:$color-text;
+         color: $color-text;
          transition-duration: 0.1ms;
          
 		}
@@ -118,6 +118,7 @@
 .active {
    color:$color-text;
    opacity: 1;
+   
 }
 .no-active {
    opacity: 0.5;
@@ -161,11 +162,11 @@
 
 
 .features {
-      c
+      background: #2c2b2b;
       height: 561px;
       &__background{
          position: absolute;
-         background: #1d1c1c;
+         background: $color-bg;
          left: 50%;
          transform: translateX(-50%);
          width: 350px;
@@ -221,29 +222,198 @@
 
 
 .services {
-   background: $color-bg;
-   height: 100px;
+      background: $color-bg;
+      padding-top: 120px;
 		&__line {
 		}
 
 		&__header {
+         margin-top: 40px;
+         margin-bottom: 60px;
+         color: $color-text;
+         font-size: 40px;
+         line-height: 49px;
+         text-transform: uppercase;
 		}
 
-		&__row {
-         padding: 0;
-         margin: 0;
+      &__wrapper {
+         display: flex;
 		}
 
 		&__button {
-         width: 350px;
-         height: 200px;
+         width: 324px;
+         height: 180px;
+         background: #2c2b2b;
+         color:$color-text;
+         border: 1px solid $color-bg;
+         p{
+            font-size: 18px;
+            line-height: 22px;
+            text-transform: uppercase;
+            color: $color-text;
+            margin-top: 43px;
+         }
 		}
 
-		&__img {
+.icon__bacground{
+   background: $color-text;
+   width: 70px;
+   height: 70px; 
+   margin: 0 auto;
+   border-radius: 50%;
+   
+}
+.icon__wrapper {
+   position: relative;
+   transform: translateY(26px);
+   
+   
+}
+}
+.active__button {  
+      background: $color-active;
+      color: #000;
+      margin: 0;
+      p{
+         margin-top: 10px;
+      }
+      
+}
+
+
+
+.aboutus {
+      padding-bottom: 120px;
+      padding-top: 120px;
+      background: $color-bg;
+		&__background {
+         position: absolute;
+         background: #2c2b2b;
+         left: 50%;
+         transform: translateX(-50%);
+         width: 410px;
+         height: 482px;
+		}
+
+      &__wrapper{
+         padding-top: 80px;
+         display: flex;
+         flex-wrap: wrap;
+      }
+
+		&__line {
+		}
+
+		&__header {
+         padding-top: 40px;
+         h2 {
+               font-size: 40px;
+               line-height: 49px;
+               color: $color-text;
+               text-transform: uppercase;
+         }
+         p {
+            font-size: 16px;
+            line-height: 23px;
+            color: $color-text;
+            padding-top: 30px;
+         }
+		}
+
+		&__button {
+         z-index: 50;
+         width: 200px;
+         height: 160px;
+         border: 1px solid $color-active;
+         h4 {
+            font-size: 64px;
+            line-height: 75px;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+         }
+         p{
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+            letter-spacing: 0.05em;
+         }
+         span {
+            display: block;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: center;
+         }
 		}
 }
 
-.otso {
-   padding: 0;
-   margin: 0;
+.button__background {
+   background: url(/img/aboutus/bg.jpg) center no-repeat;
+   background-size: cover;
+}
+
+
+
+.place {
+   background: url(/img/place/maps.jpg) center no-repeat;
+   background-size: cover;
+   height: 450px;
+}
+
+
+.footer {
+   
+   padding: 60px 0px 55px 0px ;
+     background: $color-active;
+		&__logo {
+         display: flex;
+         justify-content: space-between;
+         align-items: center;
+
+		}
+
+		&__sublogo {
+		}
+
+		&__adress {
+         margin-left: 15px;
+		}
+
+		&__contacts {
+         
+         color: $color-text;
+         p {
+            margin: 0;
+         }
+         p:not(:last-child) {
+            margin-bottom: 10px;
+         }
+         
+		}
+      &__author {
+         display: flex;
+         align-items: center;
+         
+         
+         p{
+            margin: 0;
+            border-bottom: 1px solid #000;
+         }
+      }
+}
+.link {
+
+		&__adress {
+         font-size: 14px;
+         line-height: 16px;
+         text-decoration: none;
+         color: $color-text;
+		}
+
+		&__mail {
+         color: #000;
+         text-decoration: none;
+         font-size: 14px;
+         line-height: 16px;
+		}
 }
