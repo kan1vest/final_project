@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
 header {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .body {
@@ -9,7 +10,7 @@ header {
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .line {
@@ -49,7 +50,7 @@ header {
   text-decoration: none;
   color: #FFFFFF;
   -webkit-transition-duration: 0.1ms;
-          transition-duration: 0.1ms;
+  transition-duration: 0.1ms;
 }
 
 .header__link:hover {
@@ -71,8 +72,8 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   padding: 15px 5px;
 }
 
@@ -81,15 +82,15 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @media (max-width: 992px) {
   .header__sublogo {
     -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
   }
 }
 
@@ -112,8 +113,8 @@ header {
 
 .header__line {
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   text-align: center;
   display: block;
   border: 1px solid #FFFFFF;
@@ -143,11 +144,11 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .header__submenu {
@@ -197,7 +198,7 @@ header {
 }
 
 .main {
-  background: url(/img/main/bg.jpg) center no-repeat;
+  background: url(../img/main/bg.jpg) center no-repeat;
   background-size: cover;
   height: 620px;
   padding-top: 155px;
@@ -272,7 +273,7 @@ header {
   background: #2F343A;
   left: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   width: 350px;
   height: 575px;
 }
@@ -399,10 +400,10 @@ header {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .services__button {
@@ -454,13 +455,13 @@ header {
 .services .icon__wrapper {
   position: relative;
   -webkit-transform: translateY(26px);
-          transform: translateY(26px);
+  transform: translateY(26px);
 }
 
 @media (max-width: 576px) {
   .services .icon__wrapper {
     -webkit-transform: translateY(50%);
-            transform: translateY(50%);
+    transform: translateY(50%);
   }
 }
 
@@ -485,7 +486,7 @@ header {
   background: #2c2b2b;
   left: 50%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   width: calc(320px + (410 - 320) * ((100vw - 320px) / (1200 - 320)));
   height: 440px;
 }
@@ -523,21 +524,21 @@ header {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   height: calc(140px + (160 - 140) * ((100vw - 320px) / (1200 - 320)));
 }
 
 @media (max-width: 992px) {
   .aboutus__wrapper {
     -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    flex-wrap: nowrap;
   }
 }
 
 @media (max-width: 576px) {
   .aboutus__wrapper {
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 }
 
@@ -582,8 +583,8 @@ header {
 @media (max-width: 992px) {
   .aboutus__button {
     -webkit-box-flex: 1;
-        -ms-flex: 1 1 auto;
-            flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
   }
 }
 
@@ -634,12 +635,12 @@ header {
 }
 
 .button__background-1 {
-  background: url(/img/aboutus/bg.jpg) center no-repeat;
+  background: url(../img/aboutus/bg.jpg) center no-repeat;
   background-size: cover;
 }
 
 .button__background-2 {
-  background: url(/img/aboutus/bg.jpg) center no-repeat;
+  background: url(../img/aboutus/bg.jpg) center no-repeat;
   background-size: cover;
 }
 
@@ -650,7 +651,7 @@ header {
 }
 
 .place {
-  background: url(/img/place/maps.jpg) center no-repeat;
+  background: url(../img/place/maps.jpg) center no-repeat;
   background-size: cover;
   height: 450px;
 }
@@ -665,17 +666,17 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @media (max-width: 576px) {
   .footer__logo {
     -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+    flex-wrap: wrap;
   }
 }
 
@@ -715,8 +716,8 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @media (max-width: 992px) {
